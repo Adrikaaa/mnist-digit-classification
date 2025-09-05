@@ -36,6 +36,9 @@ jupyter notebook mnist_dense.ipynb
 
 ##
 ## Results
+
+**Model Accuracy:**
+
 - Achieves accuracy above 98% with CNN architecture.
 - Training graphs and sample predictions available in `notebooks/`.
 
