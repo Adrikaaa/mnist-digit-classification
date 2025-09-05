@@ -1,16 +1,18 @@
 # MNIST Handwritten Digit Classifier
 
-Simple TensorFlow/Keras project that classifies handwritten digits (0–9) using MNIST.
+Beginner-friendly TensorFlow/Keras project classifying digits (0–9) using the MNIST dataset.
 
-## Files
-- `mnist_dense.ipynb`  — notebook with training & evaluation
-- `mnist_dense.keras`  — (optional) saved trained model
-- `requirements.txt`   — python dependencies
-- `.gitignore`         — files to ignore
+## Repository Structure
+- `mnist_dense.ipynb` — Jupyter notebook for training & evaluation  
+- `mnist_dense.keras` — Saved trained model (native Keras format)  
+- `requirements.txt` — Python dependencies  
+- `.gitignore` — (to exclude unnecessary files)
 
-## Install
-1. Create & activate venv (recommended)
-2. `pip install -r requirements.txt`
-
-## Run
-Open and run the notebook:
+## Setup & Run
+```bash
+git clone https://github.com/Adrikaaa/mnist-digit-classification.git
+cd mnist-digit-classification
+python -m venv venv
+source venv/bin/activate            # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+jupyter notebook mnist_dense.ipynb
