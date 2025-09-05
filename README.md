@@ -2,6 +2,20 @@
 
 Beginner-friendly TensorFlow/Keras project classifying digits (0–9) using the MNIST dataset.
 
+# MNIST Digit Classification
+
+TensorFlow/Keras project classifying digits (0–9) using the MNIST dataset.
+
+## Overview
+This project demonstrates how to build, train, and evaluate a digit classifier using machine learning techniques on the MNIST dataset. It walks through data loading, preprocessing, model training, and result visualization.
+
+## Features
+- Automated download and preparation of the MNIST dataset
+- Neural network training and evaluation
+- Visualization of predictions and accuracy curves
+- Easy saving and reuse of trained models
+
+
 ## Repository Structure
 - `mnist_dense.ipynb` — Jupyter notebook for training & evaluation  
 - `mnist_dense.keras` — Saved trained model (native Keras format)  
@@ -18,3 +32,24 @@ python -m venv venv
 source venv/bin/activate            # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 jupyter notebook mnist_dense.ipynb
+
+
+##
+## Results
+- Achieves accuracy above 98% with CNN architecture.
+- Training graphs and sample predictions available in `notebooks/`.
+
+## Dataset
+Uses the MNIST dataset (28x28 grayscale digits, 10 classes). Download handled automatically.
+
+## Usage
+- Run scripts in `src/` to train or test the model.
+- Explore analysis and custom runs in `notebooks/`.
+- Saved models are in `models/` for reuse and further evaluation.
+
+## Contributing
+Contributions, suggestions, and pull requests are welcome.
+
+## License
+This project is licensed under the MIT License.
+
