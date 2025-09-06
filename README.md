@@ -34,23 +34,7 @@ pip install -r requirements.txt
 jupyter notebook mnist_dense.ipynb
 
 
-##
-## Results
 
-**Model Accuracy:**
-
-- Achieves accuracy above 98% with CNN architecture.
-- Training graphs and sample predictions available in `notebooks/`.
-
-## Dataset
-Uses the MNIST dataset (28x28 grayscale digits, 10 classes). Download handled automatically.
-
-## Usage
-- Run scripts in `src/` to train or test the model.
-- Explore analysis and custom runs in `notebooks/`.
-- Saved models are in `models/` for reuse and further evaluation.
-
-## Contributing
 Contributions, suggestions, and pull requests are welcome.
 
 ## License
